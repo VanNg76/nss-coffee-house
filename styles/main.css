@@ -1,0 +1,21 @@
+.shop {
+    flex-basis: 22%;
+    border: 1px dotted rgb(50, 20, 220);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: left; /* Center align the text in the boxes */
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
+
+.pageHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
